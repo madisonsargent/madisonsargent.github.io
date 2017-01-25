@@ -5,3 +5,10 @@ h1.headerh1 {
 	font-size: 60px;
 	text-align:center;
 }
+
+.banner {
+	width:100%;
+	background-color:red;
+	padding:30px;
+	
+}
