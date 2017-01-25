@@ -38,9 +38,14 @@ a[class*="Button"].large {
 	font-size: 18px; 
 	letter-spacing: 1.2px;
 	line-height:160px;
-	padding : 11px 30px;
+	padding : 21px 30px;
 	transition: all 0.3s ease 0s;
-	
+	text-decoration:none;
+}
+
+a[class*="Button_style11"].white:hover {
+	background-color: white;
+	color:transparent;
 }
 
 .mt-50 {
