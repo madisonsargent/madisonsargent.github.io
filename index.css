@@ -17,5 +17,7 @@ h1.headerh1 {
                      rgba(20,20,20, .5), 
                      rgba(20,20,20, .5)), url(new-york.jpg);
 	padding:100px;
-	
+	background-position:center center;
+	background-size: cover;
+	background-attachment: fixed;
 }
