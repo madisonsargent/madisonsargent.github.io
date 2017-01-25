@@ -6,6 +6,10 @@ body {
 	margin:0;
 }
 
+.center {
+	text-align:center;
+}
+
 h1.headerh1 {
 	font-size: 60px;
 	text-align:center;
