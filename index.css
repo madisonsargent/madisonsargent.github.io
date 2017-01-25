@@ -9,7 +9,9 @@ h1.headerh1 {
 
 .banner {
 	width:100%;
-	background-color:#89cff0;
+	background:linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)), url(new-york.jpg);
 	padding:30px;
 	
 }
