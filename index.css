@@ -17,6 +17,11 @@ h1.headerh1 {
 	opacity:.65;
 }
 
+h5.subtitle {
+	font-size:20px;
+	color: white;
+}
+
 .banner {
 	width:100%;
 	background:linear-gradient(
