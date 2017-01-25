@@ -9,14 +9,15 @@ h1.headerh1 {
 	font-size: 60px;
 	text-align:center;
 	color:white;
+	opacity:.65;
 }
 
 .banner {
 	width:100%;
 	background:linear-gradient(
-                     rgba(20,20,20, .5), 
-                     rgba(20,20,20, .5)), url(new-york.jpg);
-	padding:100px;
+                     rgba(20,20,20, .65), 
+                     rgba(20,20,20, .65)), url(new-york.jpg);
+	padding:100px 0;
 	background-position:bottom;
 	background-size: cover;
 	background-attachment: fixed;
