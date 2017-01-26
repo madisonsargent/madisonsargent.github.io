@@ -50,7 +50,7 @@ a[class*="Button"].large {
 
 a[class*="Button_style11"].white:hover {
 	background-color: white;
-	color:transparent;
+	color:black;
 }
 
 .mt-50 {
