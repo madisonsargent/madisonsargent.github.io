@@ -14,12 +14,13 @@ h1.headerh1 {
 	font-size: 60px;
 	text-align:center;
 	color:white;
-	opacity:.65;
+	opacity:.7;
 }
 
 h5.subtitle {
 	font-size:20px;
 	color: white;
+	opacity:.7;
 }
 
 .banner {
@@ -37,6 +38,7 @@ a[class*="Button_style11"].white {
 	color: white;
 	background-color: transparent;
 	border: 1px solid white;
+	opacity:.7;
 }
 
 a[class*="Button"].large {
@@ -51,6 +53,7 @@ a[class*="Button"].large {
 a[class*="Button_style11"].white:hover {
 	background-color: white;
 	color:black;
+	opacity:.7;
 }
 
 .mt-50 {
