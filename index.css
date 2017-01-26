@@ -87,6 +87,17 @@ a[class*="Button_style11"].white:hover {
 	border:1px solid #e8e8e8;
 }
 
+.dg-tabs-top h2.resp-accordion, .dg-tabs-top .resp_container, .dg-tabs-bottom h2.resp-accordion, .dg-tabs-bottom .resp_container {
+	display:none;
+	
+}
+
+.dg-tabs-top ul.resp-tabs-list li.resp-tab-active, .dg-tabs-bottom ul.resp-tabs-list li.resp-tab-active {
+	position:relative;
+	z-index:1; 
+	color:#fff;
+}
+
 .dg-tabs-top ul.resp-tabs-list, .dg-tabs-bottom ul.resp-tabs-list {
 	margin:0;
 	padding:0;
@@ -136,3 +147,16 @@ a[class*="Button_style11"].white:hover {
 	border-top:1px solid #e0dede;
 	}
 
+.dg-tabs-top01 ul.resp-tabs-list li:hover, .dg-tabs-top01 ul.resp-tabs-list li.resp-tab-active{
+	color: #424242;
+	border-bottom-color: #20a3f0;
+	background:none;
+}
+
+.dg-tabs-top01 ul.resp-tabs-list li:hover, .dg-tabs-top01 ul.resp-tabs-list li.resp-tab-active, .dg-tabs-top09 ul.resp-tabs-list li.resp-tab-active, .dg-tabs-bottom03 ul.resp-tabs-list li.resp-tab-active span {
+	border-bottom-color: #20a3f0;
+}
+
+[class*="dg-tabs-"] h2.resp-tab-active, [class*="dg-tabs-"] h2.resp-tab-active:hover {
+	background-color: #20a3f0;
+}
