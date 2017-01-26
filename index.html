@@ -14,22 +14,32 @@
 </div>
 
 <div class="dg-tabs-top dg-tabs-top01">
-  <ul class="resp-tabs-list">
-    <li class="resp-tab-active"><span>Examples 1</span></li>
-    <li><span>Examples 2</span></li>
-    <li><span>Examples 3</span></li>
+  <ul class="resp-tabs-list" id="myTab">
+	  <li class="resp-tab-active"><a href="#home"><span>Examples 1</span></a></li>
+	  <li><a href="#profile"><span>Examples 2</span></a></li>
+	  <li><a href="#messages"><span>Examples 3</span></a></li>
   </ul>
   <div class="resp-tabs-container">
     <div class="resp_container resp-tab-content-active">
-      <div class="resp_margin"> Context 1 </div>
+      <div class="resp_margin" id="home"> Context 1 </div>
     </div>
     <div class="resp_container">
-      <div class="resp_margin"> Context 2 </div>
+      <div class="resp_margin" id="profile"> Context 2 </div>
     </div>
     <div class="resp_container">
-      <div class="resp_margin"> Context 3 </div>
+      <div class="resp_margin" id="messages"> Context 3 </div>
     </div>
   </div>
+  <script type="text/javascript">
+	  $('#myTab a').click(function (e) {
+    e.preventDefault()
+    $(this).tab('show')
+});
+
+(function($) {
+fakewaffle.responsiveTabs(['xs', 'sm']);
+})(jQuery);
+</script>
 </div>
 </body>
 </html>
