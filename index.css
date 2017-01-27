@@ -6,7 +6,7 @@ body {
 	margin:0;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
 	font-family:myFirstFont !important;
 }
 
@@ -20,7 +20,8 @@ h1, h2, h3 {
 }
 
 h1.headerh1 {
-	font-size: 60px;
+	font-size: 70px;
+	line-height:74px;
 	text-align:center;
 	color:white;
 	opacity:.7;
