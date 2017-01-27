@@ -141,6 +141,6 @@ a[class*="Button_style11"].white:hover {
 	background-color: #20a3f0;
 }
 
-li.active {
+.nav-tabs>li.active {
 	border-bottom-color: #20a3f0;
 }
