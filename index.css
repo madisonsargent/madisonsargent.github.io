@@ -6,6 +6,15 @@ body {
 	margin:0;
 }
 
+h1, h2, h3 {
+	font-family:myFirstFont !important;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(sun.otf);
+}
+
 .center {
 	text-align:center;
 }
