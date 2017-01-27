@@ -51,9 +51,10 @@ a[class*="Button"].large {
 }
 
 a[class*="Button_style11"].white:hover {
-	background-color: white;
-	color:black;
+	background-color: #FED248;
+	color:white;
 	opacity:.7;
+	border: 1px solid #FED248;
 }
 
 .mt-50 {
@@ -129,18 +130,18 @@ a[class*="Button_style11"].white:hover {
 
 .dg-tabs-top01 ul.resp-tabs-list li:hover, .dg-tabs-top01 ul.resp-tabs-list li.resp-tab-active{
 	color: #424242;
-	border-bottom-color: #20a3f0;
+	border-bottom-color: #FED248;
 	background:none;
 }
 
 .dg-tabs-top01 ul.resp-tabs-list li:hover, .dg-tabs-top01 ul.resp-tabs-list li.resp-tab-active, .dg-tabs-top09 ul.resp-tabs-list li.resp-tab-active, .dg-tabs-bottom03 ul.resp-tabs-list li.resp-tab-active span {
-	border-bottom-color: #20a3f0;
+	border-bottom-color: #FED248;
 }
 
 [class*="dg-tabs-"] h2.resp-tab-active, [class*="dg-tabs-"] h2.resp-tab-active:hover {
-	background-color: #20a3f0;
+	background-color: #FED248;
 }
 
 .nav-tabs>li.active {
-	border-bottom-color: #20a3f0;
+	border-bottom-color: #FED248;
 }
