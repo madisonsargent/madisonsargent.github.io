@@ -6,8 +6,8 @@ body {
 	margin:0;
 }
 
-a {
-	color: black;
+.nav>li>a:hover, .nav>li>a:focus {
+	background-color:none !important;
 }
 
 
