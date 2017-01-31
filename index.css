@@ -68,7 +68,6 @@ a[class*="Button"].large {
 a[class*="Button_style11"].white:hover {
 	background-color: #FED248;
 	color:white;
-	opacity:.7;
 	border: 1px solid #FED248;
 }
 
