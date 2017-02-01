@@ -231,7 +231,7 @@ a[class*="Button_style11"].white:hover {
 
 .SectionStyles3_2 {
 	background-color: #3770A4;
-	padding:60px;
+	padding:60px 60px 80px 60px;
 }
 
 .imgbg {
@@ -243,7 +243,7 @@ a[class*="Button_style11"].white:hover {
 	font-size:5em;
 }
 
-.fa-camera-retro, .fa-css3, .fa-html5, .fa-github, .fa-check {
+.fa-camera-retro, .fa-css3, .fa-html5, .fa-github, .fa-check, .fa-lock {
 	font-size:2em;
 
 }
