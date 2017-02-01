@@ -1,15 +1,80 @@
 @charset "utf-8";
 /* CSS Document */
 
+p {
+	font-size:16px;
+	color: white;
+}
+
+.pb-20 {
+	padding-bottom: 20px;
+}
+
+.pb-50 {
+	padding-bottom:50px;
+}
+
+.pt-40 {
+	padding-top:40px;
+}
+
+.delay1s {
+	-webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.delay2s {
+	-webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.delay3s {
+	-webkit-animation-delay: 3s;
+  animation-delay: 3s;
+}
+
+.delay4s {
+	-webkit-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+.delay5s {
+	-webkit-animation-delay: 5s;
+  animation-delay: 5s;
+}
+
+.delay6s {
+	-webkit-animation-delay: 6s;
+  animation-delay: 6s;
+}
+
+.delay7s {
+	-webkit-animation-delay: 7s;
+  animation-delay: 7s;
+}
+
+.delay8s {
+	-webkit-animation-delay: 8s;
+  animation-delay: 8s;
+}
+
+.delay9s {
+	-webkit-animation-delay: 9s;
+  animation-delay: 9s;
+}
+
 body {
-	overflow: hidden;
 	margin:0;
 }
 
 .nav>li>a:hover, .nav>li>a:focus {
-	background-color:none !important;
+	background-color:transparent !important;
 }
 
+.nav>li>a:hover {
+	border-color: transparent !important;
+	color: #fed248;
+}
 
 /*h1, h2, h3, h4, h5, h6 {
 	font-family:myFirstFont !important;
@@ -29,13 +94,18 @@ h1.headerh1 {
 	line-height:74px;
 	text-align:center;
 	color:white;
-	opacity:.7;
+}
+
+.SectionStyles3 h2 {
+	color: white;
+	font-size: 50px;
+	line-height:54px;
+
 }
 
 h5.subtitle {
 	font-size:20px;
 	color: white;
-	opacity:.7;
 }
 
 .banner {
@@ -43,7 +113,7 @@ h5.subtitle {
 	background:linear-gradient(
                      rgba(20,20,20, .65), 
                      rgba(20,20,20, .65)), url(new-york2.jpg);
-	padding:100px 0;
+	padding:200px 0;
 	background-position:bottom;
 	background-size: cover;
 	background-attachment: fixed;
@@ -52,8 +122,7 @@ h5.subtitle {
 a[class*="Button_style11"].white {
 	color: white;
 	background-color: transparent;
-	border: 1px solid white;
-	opacity:.7;
+	border: 3px solid white;
 }
 
 a[class*="Button"].large {
@@ -160,7 +229,45 @@ a[class*="Button_style11"].white:hover {
 	border-bottom-color: #FED248;
 }
 
-.SectionStyles3 {
+.SectionStyles3_2 {
 	background-color: #3770A4;
-	padding:50px;
+	padding:60px;
+}
+
+.imgbg {
+	background-image:url(about.jpg);
+	background-size:cover;
+}
+
+.fa-square-o {
+	font-size:5em;
+}
+
+.fa-camera-retro, .fa-css3, .fa-html5, .fa-github, .fa-check {
+	font-size:2em;
+
+}
+
+.fa-stack {
+	width:5em;
+	height:5em;
+	line-height:4.7em;
+}
+
+
+.SectionStyles3 span.ptext {
+	font-size: 26px;
+	line-height:30px;
+}
+
+p.bio {
+	font-size: 16px; 
+	line-height:20px;
+	padding:40px 100px 40px 100px;
+}
+
+h4.skillsh4 {
+	font-size: 40px;
+	line-height:44px;
+	color: white;
 }
