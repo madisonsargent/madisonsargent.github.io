@@ -10,8 +10,16 @@ p {
 	padding-bottom: 20px;
 }
 
+.pb-30 {
+	padding-bottom:30px;
+}
+
 .pb-50 {
 	padding-bottom:50px;
+}
+
+.pt-30 {
+	padding-top:30px;
 }
 
 .pt-40 {
@@ -125,6 +133,12 @@ a[class*="Button_style11"].white {
 	border: 3px solid white;
 }
 
+a[class*="Button_style11"].blue {
+	color: #3770A4;
+	background-color: transparent;
+	border: 3px solid #3770A4;
+}
+
 a[class*="Button"].large {
 	font-size: 18px; 
 	letter-spacing: 1.2px;
@@ -134,7 +148,15 @@ a[class*="Button"].large {
 	text-decoration:none;
 }
 
-a[class*="Button_style11"].white:hover {
+a[class*="Button"].medium {
+	font-size: 14px; 
+	letter-spacing: 1.2px;
+	padding : 7px 20px;
+	transition: all 0.3s ease 0s;
+	text-decoration:none;
+}
+
+a[class*="Button_style11"].white:hover, a[class*="Button_style11"].blue:hover {
 	background-color: #3770A4;
 	color:white;
 	border: 1px solid #3770A4;
@@ -271,4 +293,52 @@ h4.skillsh4 {
 	font-size: 40px;
 	line-height:44px;
 	color: white;
+}
+
+.resp-tabs-container p {
+	font-size:16px;
+	color:black;
+}
+
+.resp-tabs-container h3 {
+	color: black;
+	font-size: 26px;
+	line-height:30px;
+}
+
+.footer {
+	background-color: #363636;
+	color:#b7b7b7;
+	padding:30px;
+}
+
+.footer p {
+	color: #b7b7b7;
+}
+
+.footer h4 {
+	color:#b7b7b7;
+	font-size:20px;
+}
+
+ul.gunfreezone {
+	list-style-type: none;
+}
+
+ul.gunfreezone li {
+	font-size: 16px;
+	line-height:20px;
+}
+
+ul.gunfreezone li a {
+	color: #b7b7b7;
+	text-decoration:none;
+}
+
+ul.gunfreezone li a:visited, ul.gunfreezone li a:hover, ul.gunfreezone li a:active {
+	text-decoration:none;
+}
+
+ul.gunfreezone li a:hover {
+	color: #3770a4;
 }
