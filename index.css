@@ -73,7 +73,7 @@ body {
 
 .nav>li>a:hover {
 	border-color: transparent !important;
-	color: #fed248;
+	color: #3770A4;
 }
 
 /*h1, h2, h3, h4, h5, h6 {
@@ -135,9 +135,9 @@ a[class*="Button"].large {
 }
 
 a[class*="Button_style11"].white:hover {
-	background-color: #FED248;
+	background-color: #3770A4;
 	color:white;
-	border: 1px solid #FED248;
+	border: 1px solid #3770A4;
 }
 
 .mt-50 {
@@ -213,20 +213,20 @@ a[class*="Button_style11"].white:hover {
 
 .dg-tabs-top01 ul.resp-tabs-list li:hover, .dg-tabs-top01 ul.resp-tabs-list li.resp-tab-active{
 	color: #424242;
-	border-bottom-color: #FED248;
+	border-bottom-color: #3770A4;
 	background:none;
 }
 
 .dg-tabs-top01 ul.resp-tabs-list li:hover, .dg-tabs-top01 ul.resp-tabs-list li.resp-tab-active, .dg-tabs-top09 ul.resp-tabs-list li.resp-tab-active, .dg-tabs-bottom03 ul.resp-tabs-list li.resp-tab-active span {
-	border-bottom-color: #FED248;
+	border-bottom-color: #3770A4;
 }
 
 [class*="dg-tabs-"] h2.resp-tab-active, [class*="dg-tabs-"] h2.resp-tab-active:hover {
-	background-color: #FED248;
+	background-color: #3770A4;
 }
 
 .nav-tabs>li.active {
-	border-bottom-color: #FED248;
+	border-bottom-color: #3770A4;
 }
 
 .SectionStyles3_2 {
@@ -237,6 +237,7 @@ a[class*="Button_style11"].white:hover {
 .imgbg {
 	background-image:url(about.jpg);
 	background-size:cover;
+	background-position:right;
 }
 
 .fa-square-o {
