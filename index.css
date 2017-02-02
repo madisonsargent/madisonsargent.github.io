@@ -31,9 +31,19 @@ p {
   animation-delay: 1s;
 }
 
+.delay1-5s {
+	-webkit-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+
 .delay2s {
 	-webkit-animation-delay: 2s;
   animation-delay: 2s;
+}
+
+.delay2-5s {
+	-webkit-animation-delay: 2.5s;
+  animation-delay: 2.5s;
 }
 
 .delay3s {
@@ -41,34 +51,24 @@ p {
   animation-delay: 3s;
 }
 
+.delay3-5s {
+	-webkit-animation-delay: 3.5s;
+  animation-delay: 3.5s;
+}
+
 .delay4s {
 	-webkit-animation-delay: 4s;
   animation-delay: 4s;
 }
 
+.delay4-5s {
+	-webkit-animation-delay: 4.5s;
+  animation-delay: 4.5s;
+}
+
 .delay5s {
 	-webkit-animation-delay: 5s;
   animation-delay: 5s;
-}
-
-.delay6s {
-	-webkit-animation-delay: 6s;
-  animation-delay: 6s;
-}
-
-.delay7s {
-	-webkit-animation-delay: 7s;
-  animation-delay: 7s;
-}
-
-.delay8s {
-	-webkit-animation-delay: 8s;
-  animation-delay: 8s;
-}
-
-.delay9s {
-	-webkit-animation-delay: 9s;
-  animation-delay: 9s;
 }
 
 body {
