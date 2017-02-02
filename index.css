@@ -73,6 +73,7 @@ p {
 
 body {
 	margin:0;
+	overflow-x:hidden;
 }
 
 .nav>li>a:hover, .nav>li>a:focus {
