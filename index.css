@@ -285,8 +285,8 @@ a[class*="Button_style11"].white:hover, a[class*="Button_style11"].blue:hover {
 }
 
 p.bio {
-	font-size: 16px; 
-	line-height:20px;
+	font-size: 18px; 
+	line-height:22px;
 	padding:40px 100px 40px 100px;
 }
 
@@ -343,3 +343,22 @@ ul.gunfreezone li a:visited, ul.gunfreezone li a:hover, ul.gunfreezone li a:acti
 ul.gunfreezone li a:hover {
 	color: #3770a4;
 }
+
+
+.workBanner {
+	background-color: white;
+	padding:60px;
+}
+
+.workBanner h2 {
+	color: #3770a4;
+	text-align:center;
+	font-size:50px;
+	margin:0 auto;
+}
+
+.workBanner p {	
+	color: black;
+	font-size:18px;
+}
+
